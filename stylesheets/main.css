@@ -10,6 +10,27 @@
   background-color: #eee;
 }
 
+.content {
+  height: 25%;
+  background-color: #888;
+}
+
+/*.footer-links-img {
+  height:16px;
+  width:16px;
+  position:absolute;
+  z-index:1;
+  top:-2px;
+  left:7px;
+  border-width: 0px;
+  border-style: none;
+  border-color: white;
+}*/
+
 .flex {
   display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
 }
