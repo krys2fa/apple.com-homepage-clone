@@ -36,6 +36,11 @@ a {
   margin: 0;
 }
 
+.text-links {
+  position: relative;
+  top: -138px;
+}
+
 .common-text {
   color: #fff;
   position: relative;
@@ -80,25 +85,34 @@ a {
   margin-left: 9.375em;
 }
 
-nav {
-  background-image: url("../images/nav-background.png");
-  background-repeat: no-repeat;
+.nav-bar {
+  background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  border-radius: 5px;
+  margin: 0 40px;
+  overflow: hidden;
   height: 35px;
-  border-radius: 4px;
-  width: 100%;
+  margin: 80px 44px 0;
 }
 
-nav li {
+.nav-bar li {
   float: left;
-  margin: -6px auto;
+  border-right: 1px solid grey;
+  position: relative;
+  top: 8px;
+  padding: 0 45px;
 }
 
-nav li a {
-  display: block;
+.nav-bar li a {
   color: #fff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 20px;
+}
+
+.nav-item input {
+  width: 100px;
+  border-radius: 10px;
+  background: url(images/search.svg), linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .flex-v,
