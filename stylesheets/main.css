@@ -11,7 +11,9 @@ body {
   font-family: 'Lato', sans-serif;
   word-spacing: 0.2em;
   overflow-x: hidden;
-  min-width: 1565px;
+  /*min-width: 1565px;*/
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -55,7 +57,7 @@ a {
   border-right: 1px solid grey;
   position: relative;
   top: 8px;
-  padding: 0 41px;
+  padding: 0 20px;
 }
 
 .nav-bar li a {
@@ -139,7 +141,7 @@ a {
 }
 
 .footer-info span {
-  margin-left: 9.375em;
+  margin-left: 1em;
 }
 
 .flex-v,
