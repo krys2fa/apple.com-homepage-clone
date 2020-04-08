@@ -10,8 +10,8 @@ body {
   margin: 20px;
   font-family: 'Lato', sans-serif;
   word-spacing: 0.2em;
-  min-width: 450px;
-  max-width: 1800px;
+  min-width: 1565px;
+  /*max-width: 1800px;*/
 }
 
 ul {
@@ -40,6 +40,47 @@ a {
   height: 20px;
   background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
   border-radius: 100%;
+}
+
+.nav-bar {
+  background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 35px;
+  margin: 80px 44px 0;
+}
+
+.nav-bar li {
+  float: left;
+  border-right: 1px solid grey;
+  position: relative;
+  top: 8px;
+  padding: 0 41px;
+}
+
+.nav-bar li a {
+  color: #fff;
+  padding: 20px;
+}
+
+.nav-item {
+  border-right: none;
+}
+
+.nav-item input {
+  width: 100px;
+  border-radius: 10px;
+  background: linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-right: 0;
+}
+
+.nav-item i {
+  position: relative;
+  color: #fff;
+  left: -95px;
+  top: 2px;
 }
 
 .text-links {
@@ -72,13 +113,27 @@ a {
   margin: 10px 0;
 }
 
-.content img {
-  height: 270px;
-  width: 100%;
-}
-
 .content li {
   width: 25%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iphone5 {
+  background-image: url('../images/iphone5.jpg');
+}
+
+.iphone5c {
+  background-image: url('../images/iphone5c.jpg');
+}
+
+.mac-birthday {
+  background-image: url('../images/mac-birthday.jpg');
+}
+
+.supplier-responsibility {
+  background-image: url('../images/supplier-responsibility.jpg');
 }
 
 .footer-info {
@@ -89,42 +144,6 @@ a {
 
 .footer-info span {
   margin-left: 9.375em;
-}
-
-.nav-bar {
-  background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
-  border-radius: 5px;
-  overflow: hidden;
-  height: 35px;
-  margin: 80px 44px 0;
-}
-
-.nav-bar li {
-  float: left;
-  border-right: 1px solid grey;
-  position: relative;
-  top: 8px;
-  padding: 0 45px;
-}
-
-.nav-bar li a {
-  color: #fff;
-  padding: 20px;
-}
-
-.nav-item input {
-  width: 100px;
-  border-radius: 10px;
-  background: url(images/search.svg), linear-gradient(to top, #838383, #54575a, #8a8a8a);
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.nav-item i {
-  position: relative;
-  color: #fff;
-  left: -95px;
-  top: 2px;
 }
 
 .flex-v,
