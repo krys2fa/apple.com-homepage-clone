@@ -27,9 +27,19 @@ a {
 
 .main-container {
   width: 100%;
-  height: 600px;
+  height: 37.5em;
   /*background-color: #888;*/
   margin: auto;
+}
+
+.content {
+  height: 45%;
+  margin: 10px 0;
+}
+
+.content img {
+  height: 270px;
+  width: 100%;
 }
 
 .footer-info {
@@ -41,6 +51,20 @@ a {
 .footer-info span{
   margin-left: 9.375em;
 }
+
+
+element.style {
+    height: 200px;
+    width: 364px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -182px;
+    border-width: 0px;
+    border-style: none;
+    border-color: white;
+}
+
 /*
 .banner {
   width: 100%;
@@ -63,10 +87,7 @@ a {
     padding: 50px 0px;
 }*/
 
-/*.content {
-  height: 25%;
-  background-color: #888;
-}*/
+
 
 /*.footer-links-img {
   height:16px;
@@ -125,8 +146,13 @@ nav li a {
   margin: 3px auto;
 }
 
-.flex {
+.flex-v,
+.flex-h {
   display: flex;
+}
+
+.flex-v {
+  flex-direction: column;
 }
 
 .space-between {
