@@ -121,6 +121,13 @@ a {
   background-position: left;
 }
 
+.nav-item i {
+  position: relative;
+  color: #fff;
+  left: -95px;
+  top: 2px;
+}
+
 .flex-v,
 .flex-h {
   display: flex;
