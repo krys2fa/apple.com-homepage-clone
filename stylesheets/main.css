@@ -1,19 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.banner {
-  width: 100%;
-  height: 75%;
-  background-color: #eee;
+body {
+  margin: 20px;
+  font-family: 'Lato', sans-serif;
+  word-spacing: 0.2em;
 }
 
-.content {
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #2094D1;
+  text-decoration: none;
+}
+
+/*li {
+
+}*/
+
+.main-container {
+  width: 100%;
+  height: 600px;
+  /*background-color: #888;*/
+  margin: auto;
+}
+
+.footer-info {
+  font-size: 0.8334em;
+  margin: 0.62em;
+  width: 50%;
+}
+
+.footer-info span{
+  margin-left: 9.375em;
+}
+/*
+.banner {
+  width: 100%;
+  height: 75%; 
+}*/
+  /*background-color: #eee;*/
+
+    /*  text-align: left;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    left: 0px;
+    background-image: url('https://archive.fo/UW4oR/fe9659b1fa4d3553437a965d658eb527864d1c07.png');
+    background-color: transparent;
+    background-size: 25px 335px;
+    background-position: 0px 50%;
+    background-repeat: repeat-x;
+    margin: -170px 0px 0px;
+    padding: 50px 0px;
+}*/
+
+/*.content {
   height: 25%;
   background-color: #888;
-}
+}*/
 
 /*.footer-links-img {
   height:16px;
@@ -27,10 +80,59 @@
   border-color: white;
 }*/
 
+nav {
+  background-image: url("../images/nav-background.png");
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  /*background-size: cover;*/
+  height: 35px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+  margin: -6px auto;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /*margin: 3px auto;*/
+
+    /*width: 100%;*/
+    /*height: 30px;*/
+    /*background-color: transparent;*/
+    /* background-image: url(https://archive.fo/UW4oR/d800d4d….png); */
+    /* background-position: 50% 0px; */
+    /* background-repeat: no-repeat; */
+    /*margin: 3px auto;*/
+}
+
+
+
+.apple-logo {
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-color: #000; 
+  background-image: url('https://archive.fo/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png');
+  background-position: 50% 0px; 
+  background-repeat: no-repeat; 
+  margin: 3px auto;
+}
+
 .flex {
   display: flex;
 }
 
 .space-between {
   justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }
