@@ -14,7 +14,7 @@ In this Microverse project, I made use of float and flex CSS principles to make 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Rumbie-Mudzie7/New-York-Times-Article-Clone/56f3083434a8bea35263fca2ff35273b154e16f6/index.html)
+[Live Demo Link](https://raw.githack.com/krys2fa/apple.com-homepage-clone/homepage/index.html)
 
 ## Getting Started
 
