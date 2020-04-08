@@ -11,7 +11,7 @@ body {
   font-family: 'Lato', sans-serif;
   word-spacing: 0.2em;
   min-width: 450px;
-  max-width: 1200px;
+  max-width: 1800px;
 }
 
 ul {
@@ -19,15 +19,33 @@ ul {
 }
 
 a {
-  color: #2094D1;
+  color: #2094d1;
   text-decoration: none;
 }
 
 .main-container {
   width: 100%;
   height: 37.5em;
-  /*background-color: #888;*/
+
+  /* background-color: #888; */
   margin: auto;
+}
+
+.header {
+  background-color: #888;
+}
+
+.verse {
+  text-align: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  text-decoration: none;
 }
 
 .content {
@@ -50,64 +68,13 @@ a {
   width: 50%;
 }
 
-.footer-info span{
+.footer-info span {
   margin-left: 9.375em;
 }
-
-
-element.style {
-    height: 200px;
-    width: 364px;
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    margin-left: -182px;
-    border-width: 0px;
-    border-style: none;
-    border-color: white;
-}
-
-/*
-.banner {
-  width: 100%;
-  height: 75%; 
-}*/
-  /*background-color: #eee;*/
-
-    /*  text-align: left;
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 0px;
-    left: 0px;
-    background-image: url('https://archive.fo/UW4oR/fe9659b1fa4d3553437a965d658eb527864d1c07.png');
-    background-color: transparent;
-    background-size: 25px 335px;
-    background-position: 0px 50%;
-    background-repeat: repeat-x;
-    margin: -170px 0px 0px;
-    padding: 50px 0px;
-}*/
-
-
-
-/*.footer-links-img {
-  height:16px;
-  width:16px;
-  position:absolute;
-  z-index:1;
-  top:-2px;
-  left:7px;
-  border-width: 0px;
-  border-style: none;
-  border-color: white;
-}*/
 
 nav {
   background-image: url("../images/nav-background.png");
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
-  /*background-size: cover;*/
   height: 35px;
   border-radius: 4px;
   width: 100%;
@@ -124,28 +91,6 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  /*margin: 3px auto;*/
-
-    /*width: 100%;*/
-    /*height: 30px;*/
-    /*background-color: transparent;*/
-    /* background-image: url(https://archive.fo/UW4oR/d800d4d….png); */
-    /* background-position: 50% 0px; */
-    /* background-repeat: no-repeat; */
-    /*margin: 3px auto;*/
-}
-
-
-
-.apple-logo {
-  display: block;
-  width: 100%;
-  height: 30px;
-  background-color: #000; 
-  background-image: url('https://archive.fo/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png');
-  background-position: 50% 0px; 
-  background-repeat: no-repeat; 
-  margin: 3px auto;
 }
 
 .flex-v,
