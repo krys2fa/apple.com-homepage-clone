@@ -10,7 +10,8 @@ body {
   font-family: 'Lato', sans-serif;
   word-spacing: 0.2em;
   overflow-x: hidden;
-  min-width: 1250px;
+  min-width: 980px;
+  max-width: 1440px;
   width: 100%;
 }
 
@@ -46,15 +47,15 @@ footer {
 }
 
 .nav-bar {
-  margin-top: 100px;
-  width: 100%;
+  width: 96%;
+  margin: 100px auto 0;
 }
 
 .nav-bar ul {
   background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
   border-radius: 5px;
   height: 35px;
-  margin: 0 100px;
+  width: 100%;
 }
 
 .nav-bar li {
