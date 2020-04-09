@@ -53,7 +53,6 @@ footer {
 .nav-bar ul {
   background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
   border-radius: 5px;
-  overflow: hidden;
   height: 35px;
   margin: 0 100px;
 }
