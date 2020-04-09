@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  word-spacing: 0.2em;
+  overflow-x: hidden;
+  min-width: 980px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #2094d1;
+  text-decoration: none;
+}
+
+footer {
+  margin: 0 30px;
+}
+
+footer ul {
+  width: 50%;
+}
+
+.main-container {
+  margin: 0 100px;
+}
+
+.header {
+  background: url('../images/banner.jpg') 50% 100% no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin: 0;
+}
+
+.logo-img {
+  height: 20px;
+  background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  border-radius: 100%;
+}
+
+.nav-bar {
+  width: 96%;
+  margin: 100px auto 0;
+}
+
+.nav-bar ul {
+  background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  border-radius: 5px;
+  height: 35px;
+  width: 100%;
+}
+
+.nav-bar li {
+  border-right: 1px solid grey;
+}
+
+.content a {
+  width: 25%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nav-bar li a {
+  color: #fff;
+  padding: 20px;
+}
+
+.watch-text p:hover {
+  text-decoration: underline;
+}
+
+.nav-item {
+  border-right: none;
+}
+
+.nav-item input {
+  width: 100px;
+  border-radius: 10px;
+  background: linear-gradient(to top, #838383, #54575a, #8a8a8a);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-right: 0;
+}
+
+.nav-item i {
+  position: relative;
+  color: #fff;
+  left: -95px;
+  top: 2px;
+}
+
+.common-text {
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.verse-text {
+  top: 100px;
+  font-size: 4rem;
+}
+
+.share-text {
+  top: 120px;
+  font-size: 2rem;
+}
+
+.watch-text {
+  top: 160px;
+  font-size: 1.5rem;
+}
+
+.iphone5 {
+  background-image: url('../images/iphone5.jpg');
+}
+
+.iphone5c {
+  background-image: url('../images/iphone5c.jpg');
+}
+
+.mac-birthday {
+  background-image: url('../images/mac-birthday.jpg');
+}
+
+.supplier-responsibility {
+  background-image: url('../images/supplier-responsibility.jpg');
+}
+
+.footer-info {
+  font-size: 9px;
+  margin: 10px 0;
+}
+
+.copyright span {
+  float: left;
+  margin: 10px auto;
+  font-size: 9px;
+}
+
+.flex-v,
+.flex-h {
+  display: flex;
+}
+
+.flex-v {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
