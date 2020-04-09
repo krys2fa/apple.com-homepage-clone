@@ -7,13 +7,13 @@
 }
 
 body {
-  margin: 20px;
   font-family: 'Lato', sans-serif;
   word-spacing: 0.2em;
   overflow-x: hidden;
-  /*min-width: 1565px;*/
+  min-width: 1250px;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 ul {
@@ -26,7 +26,6 @@ a {
 }
 
 .main-container {
-  width: 100%;
   margin: auto;
 }
 
@@ -44,20 +43,23 @@ a {
   border-radius: 100%;
 }
 
+.nav-bar {
+  margin-top: 180px;
+  width: 100%;
+}
+
 .nav-bar ul {
   background-image: linear-gradient(to top, #838383, #54575a, #8a8a8a);
   border-radius: 5px;
   overflow: hidden;
   height: 35px;
-  margin: 80px 44px 0;
+  margin: 0 40px;
 }
 
 .nav-bar li {
-  float: left;
   border-right: 1px solid grey;
-  position: relative;
-  top: 8px;
-  padding: 0 20px;
+  display: inline-block;
+  padding: 0 22px;
 }
 
 .nav-bar li a {
