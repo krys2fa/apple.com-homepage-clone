@@ -11,8 +11,6 @@ body {
   word-spacing: 0.2em;
   overflow-x: hidden;
   min-width: 1250px;
-  margin: 0;
-  padding: 0;
   width: 100%;
 }
 
@@ -25,8 +23,12 @@ a {
   text-decoration: none;
 }
 
+footer {
+  margin: 0 100px;
+}
+
 .main-container {
-  margin: auto;
+  margin: 0 100px;
 }
 
 .header {
@@ -44,7 +46,7 @@ a {
 }
 
 .nav-bar {
-  margin-top: 180px;
+  margin-top: 100px;
   width: 100%;
 }
 
@@ -53,13 +55,20 @@ a {
   border-radius: 5px;
   overflow: hidden;
   height: 35px;
-  margin: 0 40px;
+  margin: 0 100px;
 }
 
 .nav-bar li {
   border-right: 1px solid grey;
   display: inline-block;
-  padding: 0 22px;
+  padding: 0 5px;
+}
+
+.content a {
+  width: 25%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .nav-bar li a {
@@ -87,11 +96,6 @@ a {
   top: 2px;
 }
 
-.text-links {
-  position: relative;
-  top: -138px;
-}
-
 .common-text {
   color: #fff;
   position: relative;
@@ -99,25 +103,18 @@ a {
 }
 
 .verse-text {
-  top: 200px;
+  top: 100px;
   font-size: 4rem;
 }
 
 .share-text {
-  top: 220px;
+  top: 120px;
   font-size: 2rem;
 }
 
 .watch-text {
-  top: 260px;
+  top: 160px;
   font-size: 1.5rem;
-}
-
-.content li {
-  width: 25%;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .iphone5 {
@@ -137,7 +134,7 @@ a {
 }
 
 .footer-info {
-  font-size: 0.8334em;
+  font-size: 9px;
   margin: 0.62em;
   width: 50%;
 }
