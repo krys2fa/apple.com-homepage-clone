@@ -25,7 +25,11 @@ a {
 }
 
 footer {
-  margin: 0 100px;
+  margin: 0 30px;
+}
+
+footer ul {
+  width: 50%;
 }
 
 .main-container {
@@ -72,6 +76,10 @@ footer {
 .nav-bar li a {
   color: #fff;
   padding: 20px;
+}
+
+.watch-text p:hover {
+  text-decoration: underline;
 }
 
 .nav-item {
@@ -133,12 +141,13 @@ footer {
 
 .footer-info {
   font-size: 9px;
-  margin: 0.62em;
-  width: 50%;
+  margin: 10px 0;
 }
 
-.footer-info span {
-  margin-left: 1em;
+.copyright span {
+  float: left;
+  margin: 10px auto;
+  font-size: 9px;
 }
 
 .flex-v,
