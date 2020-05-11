@@ -13,6 +13,7 @@ body {
   min-width: 980px;
   max-width: 1440px;
   width: 100%;
+  margin: 0 auto;
 }
 
 ul {
